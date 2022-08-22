@@ -23,7 +23,7 @@ jobs:
 
     - name: Deploy objects to S3 bucket
       run: |
-        aws s3 sync ./ s3://bucket-teramoto \
+        aws s3 sync ./ s3://bucket1t \
                 --exclude '.git/*' \
         --exclude '.github/*' \
         --exclude 'README.md' \
